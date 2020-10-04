@@ -3,12 +3,17 @@ public class Main {
 
         public static void main(String[] args){
 
-            EasyITCompany[] arr = new EasyITCompany[] {new Employee(), new Manager(),
-                    new Developer(), new Specialist(), new CEO(), new EasyITCompany()};
+            Employee employee = new Employee();
+            Manager manager = new Manager();
+            Developer developer = new Developer();
+            Specialist specialist = new Specialist();
+            CEO ceo = new CEO();
 
-            for(EasyITCompany easyITCompany: arr){
-                easyITCompany.goToVacation();
-            }
+            employee.goToDayOff();
+            manager.goToDayOff();
+            developer.goToDayOff();
+            specialist.goToDayOff();
+            ceo.goToDayOff();
 
         }
 

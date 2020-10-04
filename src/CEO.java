@@ -2,19 +2,14 @@ public class CEO extends EasyITCompany {
 
     private String name;
 
-    public String getName() {
-        return name;
-    }
+    public CEO() {
 
-    public void setName(String name) {
+    }
+    public CEO(String name) {
         this.name = name;
     }
-
-    public void goPublic(){
-        System.out.println("CEO" + " Work IPO");
-    }
-    public void goToVacation(){
-        System.out.println(" CEO say: I am going to Havail!");
+    public void goToDayOff(){
+        System.out.println("Директор, Вам нужен отгул");
     }
 
 }

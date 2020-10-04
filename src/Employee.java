@@ -2,13 +2,14 @@ public class Employee extends EasyITCompany {
 
     private String name;
 
-    public void setName(String name) {
+    public Employee() {
+
+    }
+    public Employee(String name) {
         this.name = name;
     }
-    public String getName() {
-        return name;
+    public void goToDayOff(){
+        System.out.println("Рабочие, Вам нужен отгул");
     }
-    public void goToVacation(){
-        System.out.println(" Employee say: I am going to Sochi ");
-    }
+
 }

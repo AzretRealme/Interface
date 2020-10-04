@@ -1,4 +1,4 @@
-public class EasyITCompany {
+public abstract class EasyITCompany {
     private String name;
     private String grades;
     private boolean hasStocks;
@@ -13,39 +13,9 @@ public class EasyITCompany {
     public EasyITCompany(){
 
     }
-
-    public String getName() {
-        return name;
+    public void EasyItCompany(){
+        System.out.println("Говорит Компания ИЗИ");
     }
+   abstract public void goToDayOff();
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getGrades() {
-        return grades;
-    }
-
-    public void setGrades(String grades) {
-        this.grades = grades;
-    }
-
-    public boolean getHasStocks() {
-        return hasStocks;
-    }
-
-    public void setHasStocks(boolean hasStocks) {
-        this.hasStocks = hasStocks;
-    }
-
-    public boolean getHasCompanyCar() {
-        return hasCompanyCar;
-    }
-
-    public void setHasCompanyCar(boolean hasCompanyCar) {
-        this.hasCompanyCar = hasCompanyCar;
-    }
-    public void goToVacation(){
-
-    }
 }
