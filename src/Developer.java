@@ -1,18 +1,17 @@
-public class Developer extends EasyITCompany {
-    private String grades;
+public class Developer implements Cloneable{
+
     private String name;
-    private String name2;
-    private String name3;
-    private String name4;
 
-    public Developer() {
-
-    }
-    public Developer(String grades) {
-        this.grades = grades;
-    }
-    public void goToDayOff(){
-        System.out.println("Разработчики, Вам нужен отгул");
+    public String getName() {
+        return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
