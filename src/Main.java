@@ -6,7 +6,9 @@ public class Main {
         Boeing737 boeing737 = new Boeing737();
 
         Test test = new Test();
+        test.foo(mi8);
         test.foo(boeing737);
+       
     }
 }
 
