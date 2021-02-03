@@ -8,6 +8,8 @@ public class Main {
         Test test = new Test();
         test.foo(mi8);
         test.foo(boeing737);
+        test.foo1(mi8);
+        test.foo1(boeing737);
        
     }
 }
